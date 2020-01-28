@@ -11,7 +11,7 @@ class SignIn extends React.Component {
     constructor(props) {
         super(props)
 
-        this.state={
+        this.state = {
             email: '',
             password: ''
         }
@@ -25,7 +25,7 @@ class SignIn extends React.Component {
         try {
             await auth.signInWithEmailAndPassword(email, password);
             this.setState({ email: '', password: ''})
-        }catch (error) {
+        } catch (error) {
             console.log(error);
         }
     };
