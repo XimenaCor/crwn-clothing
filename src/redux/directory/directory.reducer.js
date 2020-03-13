@@ -4,7 +4,7 @@ const INITIAL_STATE = {
           title: 'hats',
           imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
           id: 1,
-          linkUrl: 'hats'
+          linkUrl: 'shop/hats'
         },
         {
           title: 'jackets',
@@ -23,14 +23,14 @@ const INITIAL_STATE = {
           imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
           size: 'large',
           id: 4,
-          linkUrl: 'shop/women'
+          linkUrl: 'shop/womens'
         },
         {
           title: 'men',
           imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
           size: 'large',
           id: 5,
-          linkUrl: 'shop/men'
+          linkUrl: 'shop/mens'
         }
       ]
 }
